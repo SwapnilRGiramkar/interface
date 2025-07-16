@@ -1,0 +1,28 @@
+*Interface-->
+**Interface are the member/Components in java which are used to achieve pure abstraction.
+**Concrete non-static methods are not-allowed in Interface.
+-Interface are used to achieve multiple Inheritance in java.
+
+***Members that can be created in interface-->
+1)We can create only public Non-Static abstract method.
+2)Any variable decalred in a interface is by default public static and final.
+3)Concrete Non-Static methods are not allowed.
+4)Constructors are Not allowed.
+
+*Any member in a interface by default public it is not necessary for a programmer to prefix public modifier.
+*All Non-Static method are by default public and abstract in a interface ,therefore it is not necessary for a programmer to prefix 
+ public modifier.
+ *from jdk 1.8 onwards public static concrete methods are allowed in interface.
+ *default Non-Static concrete methods are allowed in interface.
+
+ ****Note-->
+ 1)if we want to inheritance between two classes or two interfaces we used extends keyward.
+ 2)if we want to inheritance between class and interface we used implements keyword.
+
+ **We cannot have public non-static method of an interface.
+ **We cannot have any Constructors in interface.
+ **Initilizers are like static block or non-static block are not allowed .
+ **An inerface cannot be Instanciated.
+ **An interface can inherited another interface.
+ **Class can inherited another interface.
+ **Inheritance cannot inherit class (Concrete members of class not allowed in interface).
